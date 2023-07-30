@@ -1,0 +1,65 @@
+// color
+@pcolor: #5a84a2; // 主色
+@scolor: #49C628; // 成功色
+@wcolor: #F8D800; // 警告色
+@dcolor: #E80505; // 错误色
+
+//font-size
+@size-s: 16px; // 主字号
+@size-m: 18px; // 大一号
+@size-l: 20px; // 大二号
+
+// bg-color
+@bg-pcolor: #ecf0f3; //主背景
+@bg-scolor: #e0eade;
+@bg-wcolor: #f0eee5;
+@bg-dcolor: #f0e5e5;
+
+// box-shadow
+@shadow-p: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+// shadow-hover
+@shadow-p-h: inset -2px -2px 8px rgba(255, 255, 255, 1),
+        inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+
+
+.c-button {
+  box-sizing: border-box;
+  border: none;
+  padding: 15px 8px;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 2px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  // position: relative;
+  // top:0;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  // margin: auto;
+}
+
+// 默认bgColor设置
+.priBg{
+  background-color: @bg-pcolor;
+}
+.sucBg{
+  background-color: @bg-scolor;
+}
+.warBg{
+  background-color: @bg-wcolor;
+}
+.danBg{
+  background-color: @bg-dcolor;
+}
+
