@@ -37,6 +37,7 @@ export default {
             { text: '头像', link: '/component/avatar' },
             { text: '按钮', link: '/component/button' }, 
             { text: '下拉框', link: '/component/select' }, 
+            { text: '表单组件', link: '/component/form' }, 
           ]
         }
       ]

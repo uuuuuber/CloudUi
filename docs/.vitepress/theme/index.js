@@ -5,6 +5,7 @@ import CIcon from '@cloud/ui/icon/index'
 import CButton  from '@cloud/ui/button/index'
 import CSelect  from '@cloud/ui/select/index'
 import CAvatar  from '@cloud/ui/avatar/index'
+import { CForm, CFormInput, CFormLabel, CFormButton } from '@cloud/ui'
 // import '@cloud/theme/mixins/index.scss'
 import './custom.css'
 
@@ -16,5 +17,10 @@ export default {
         app.use(CButton)
         app.use(CSelect)
         app.use(CAvatar)
+        app.use(CForm)
+        app.use(CFormInput)
+        app.use(CFormLabel)
+        app.use(CFormButton)
+
     }
 }

@@ -8,6 +8,7 @@ import {components} from '@cloud/ui/index'
 // import '@cloud/theme/mixins/index.scss'
 
 const app = createApp(App)
+console.log(components);
 
 
 components.forEach(comp=>app.use(comp))

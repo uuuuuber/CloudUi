@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm -C play dev",
-    "doc:dev": "pnpm -C docs dev --port 8080",
+    "dev": "pnpm -C play dev --port 7009",
+    "doc:dev": "pnpm -C docs dev --port 9900",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
