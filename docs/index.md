@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Cluod Ui
+  name: Cloud Ui
   text: 基于vue3的拟态UI组件库
   tagline: 一个漂亮且完美的ui组件库，适用于个人博客的装扮。
   image:

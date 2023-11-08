@@ -1,11 +1,11 @@
 export default {
-  title: "Cluod Ui",
+  title: "Cloud Ui",
   description: "基于vue3的拟态UI组件库",
   lastUpdated: true,
   outDir: '../dist',
   head: [['meta', { name: 'keywords', content: 'HTML, CSS, JavaScript, ui, vue, 组件库' }]],
   themeConfig: {
-    siteTitle: 'Cluod Ui',
+    siteTitle: 'Cloud Ui',
     logo: '/logo.png',
     lastUpdatedText: "最近更新时间",
     socialLinks: [{ icon: "github", link: "https://github.com" }],
