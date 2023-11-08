@@ -101,7 +101,7 @@
         </c-button>
   
       </div>
-      <c-button type="primary" size="50"  shape="square" @click="add">
+      <c-button type="primary" size="50"  shape="square" @click="add(1,2)">
         <c-icon color="#00a0ea" size="30"><LogoTwitter /></c-icon>
       </c-button>
     </div>
@@ -110,10 +110,10 @@
   
   <script setup lang="ts">
   import { LogoTwitter } from "@vicons/ionicons5";
-  const add=()=>{
-    console.log(1111);
-    
+ const add=(a: number, b: number)=>{
+    return a + b;
   }
+  export {add};
   </script>
   <style scoped lang="less">
   .cButton {
