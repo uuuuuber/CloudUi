@@ -110,10 +110,10 @@
   
   <script setup lang="ts">
   import { LogoTwitter } from "@vicons/ionicons5";
- const add=(a: number, b: number)=>{
+  const add=(a: number, b: number)=>{
     return a + b;
   }
-  export {add};
+
   </script>
   <style scoped lang="less">
   .cButton {
